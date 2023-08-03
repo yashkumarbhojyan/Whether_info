@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.container{
+    width: 50vw;
+    height: 90vh;
+    margin: 5%;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 7%;
+    
+}
+
+img{
+    width:30%;
+    padding-bottom: 30px;
+}
+.container .search{
+    display: flex;
+    padding-bottom: 5px;
+    margin: 2vw 9vw;
+    justify-content: space-around;
+}
+#inp{
+    width: 500px;
+    font-size: 1.5vw;
+    padding: 2px;
+    margin-right: 1.2vw;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+
+}
+::placeholder{
+    color: black;
+}
+#btn{
+    font-size: 1.5vw;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    background-color: skyblue;
+       
+}
+
+h2{
+    font-size: 3vw;
+    opacity: 80%;
+}
+#temp{
+    margin-top: -2.5vw;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+}
+#type{
+    margin-top: -11px;
+}
+
+
+.whether-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vw;
+
+}
+
+.whether-detail img{
+    height: 3vw;
+    width: 3vw;
+}
+
+.whether-detail p{
+    font-size: 1.5vw;
+   
+}
+.whether-detail span{
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+
+@media (50px<=width<=700px) {
+    .container{
+        width:90%;
+        height: 100vh;
+        padding: 20px;
+        position: fixed;
+    }
+
+    .search{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    img{
+        width:20vh;
+    }
+
+    .whether-detail img{
+        height: 35px;
+        width: 35px;
+    }
+    h2{
+        font-size: 50px;
+        opacity: 80%;
+    }
+    #inp{
+        font-size: 15px;
+        padding: 2px;
+      
+    }
+    ::placeholder{
+        color: black;
+    }
+    #btn{
+        font-size: 15px;
+        padding: 4px 10px;
+    }
+
+    #temp{
+        
+        margin-bottom: 1vw;
+        font-size: 40px;
+    }
+   
+
+.whether-detail p{
+    font-size: 15px;
+   
+}
+.whether-detail span{
+    font-size: 17px;
+    font-weight: 700;
+}
+    
+}
